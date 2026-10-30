@@ -1,0 +1,35 @@
+    
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="musicband.css">
+  </head>
+  <body>
+    <button type="button" class="btn btn-return"> <a href="musicband.html">Return</a></button>
+    <h1>contact</h1>
+Please fill this out
+    <form
+      onSubmit={submitForm}
+      method="post"
+      action={SUBMIT_URL}
+      <label htmlFor="name">Name</label>
+      <input type="text" id="name" name="name"/>
+      <p></p>
+     <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+      <p></p>
+      <label htmlFor="email">Email</label>
+      <input type="email" id="email" name="email"/>
+      <p></p>
+      <label htmlFor="message">Message</label>
+      <textarea id="message" name="message" ></textarea>
+      <p></p>
+      <label>acepted terms and conditon</label>
+      <input type="checkbox">
+      <p></p>
+      <button>Send</button>
+    </form>
+  </body>
