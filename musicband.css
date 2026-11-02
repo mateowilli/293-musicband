@@ -14,3 +14,6 @@ h1{
 table{
   align-items: evenly;
 }
+:root {
+  --bs-body-bg: #191919 !important;
+}
